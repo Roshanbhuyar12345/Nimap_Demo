@@ -4,7 +4,6 @@ public class MultipleCatch {
 	public static void main(String[] args) 
 	{
 		try {
-		int c[]=null;
 		
 		int s=6/0;
 		System.out.println(s);
@@ -21,6 +20,7 @@ public class MultipleCatch {
 		{
 			System.out.println("please enter right index");
 		}
+		// exception can handled all the exception
 		catch(Exception e) {
 			System.out.println("all exception are handled");
 		}

@@ -3,7 +3,7 @@ package Exception_Handling;
 import java.util.HashSet;
 import java.util.Iterator;
 
-public class A {
+public class A  {
 	
 	static void add(int a,int b) {
 		int c=a+b;

@@ -11,7 +11,7 @@ public class Demo1 {
 			System.out.println("try end");
 		} catch (ArithmeticException e) {
 			System.out.println("in catch block");
-			//e.printStackTrace();
+			// e.printStackTrace();
 
 		} finally {
 			System.out.println("inside finally");
