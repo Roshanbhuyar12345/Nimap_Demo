@@ -7,8 +7,7 @@ public class Main {
 
 		employee.display();
 		employee.wagages();
-		employee1.display();
-		employee1.wagages();
+		
 	}
 
 }

@@ -25,7 +25,11 @@ public class Employee {
 	}
 	public void wagages() {
 		long total=sal+(extraHr*hourlywage);
-		System.out.println(total);
+		
+		System.out.println("name :"+name);
+		System.out.println("age :"+age);
+		System.out.println("salary :"+sal);
+		System.out.println("total wage :"+total);
 	}
 	
 	}

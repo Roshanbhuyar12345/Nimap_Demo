@@ -11,18 +11,18 @@ public class Demo1 {
 		System.out.println(d);
 	}
 	
-	public void show(int c) {
-	   	
-		System.out.println(b);
-		System.out.println(a);
-	}
 	
+	
+	//static block get executed before creating an onject because static block get load into memory before creating a object
 	static {
 		System.out.println("here static block get loaded into memory before object creation");
 	}
 	
 	
 	public static void main(String[] args) {
+		
+		Demo1 obj=new Demo1();
+		obj.show();
 		
 		
 	}
