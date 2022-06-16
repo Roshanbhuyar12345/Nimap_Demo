@@ -1,6 +1,8 @@
 package com.abstraction1;
 
-public class Test extends Apple {
+import com.abstraction_prog.Test;
+
+public class Test12 extends Apple {
 	public static void main(String[] args) {
 
 		Apple apple;
