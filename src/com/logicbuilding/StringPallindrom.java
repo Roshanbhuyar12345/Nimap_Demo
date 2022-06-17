@@ -4,10 +4,10 @@ public class StringPallindrom {
 	public static void main(String[] args) {
 
 		String s = "madam";
-		String rev = " ";
+		String rev = "";
 
 		char a[] = s.toCharArray();
-		for (int i = s.length(); i>=0; i--) {
+		for (int i = s.length()-1; i>=0; i--) {
 			rev = rev+a[i];
 		}
 		System.out.println(rev);
