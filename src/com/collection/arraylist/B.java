@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class B {
 	public static void main(String[] args) {
 		
-		 ArrayList al=new ArrayList<Object>();
+		 ArrayList al=new ArrayList<>();
 		
 		 al.add(1);
 		 al.add("roshan");
@@ -18,7 +18,7 @@ public class B {
 			 
 			 System.out.println(al.get(i));
 		 }
-		 
+		 //foreach loop
 		 for(Object s:al) {
 			 System.out.println(s);
 		 }
