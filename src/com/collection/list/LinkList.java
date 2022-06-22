@@ -1,5 +1,7 @@
 package com.collection.list;
 
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
@@ -7,29 +9,32 @@ import java.util.List;
 public class LinkList {
 	public static void main(String[] args) {
 		
-		List list=new LinkedList();
+		List<Integer> list=new LinkedList();
 		
 		list.add(12);
+		list.add(14);
 		list.add(13);
-		list.add(12);
 		list.add(15);
 		list.add(16);
 		list.add(12);
 		list.add(18);
 		
+		//comparator 
+		Comparator<Integer> c=new Comparator<Integer>() {
+			public int compare(Integer i,Integer j) {
+				if(i%10>j%10)
+					return 1;
+				else 
+					return -1;
+			}
+		};
 		
-		
-		
-		
-		System.out.println(list);
-		
-		System.out.println(list.hashCode());
-		
-		Iterator itr=list.iterator();
-		while(itr.hasNext()) {
-			System.out.println(itr.next());
-		}
-		
+	Collections.sort(list,c);
+	
+	for(Integer s:list) {
+		System.out.println(s);
 	}
-
+		
+		
+}
 }
