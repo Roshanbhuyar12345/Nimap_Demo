@@ -12,16 +12,13 @@ public class B {
 		 al.add( 15.20);
 		 al.add(54852);
 		 
-		 System.out.println(al);
 		 
-		 for(int i=0;i<al.size();i++) {
+		 
+	//elemwnt can access by there position 	
 			 
-			 System.out.println(al.get(i));
-		 }
-		 //foreach loop
-		 for(Object s:al) {
-			 System.out.println(s);
-		 }
+			 System.out.println(al.get(1));
+		 
+		
 	}
 
 }
