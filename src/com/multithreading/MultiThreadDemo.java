@@ -2,7 +2,7 @@ package com.multithreading;
 
 public class MultiThreadDemo extends Thread {
 
-	int a[] = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 4, 5, 7, 8, 4, 5, 7, 8, 4, 5, 11, 5, 8, 22, 5 };
+	int a[] = { 1, 2, 3, 4, 5, 6, 7, 8, 9,10};
 
 	@Override
 	public void run() {
