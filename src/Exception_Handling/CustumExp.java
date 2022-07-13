@@ -8,6 +8,7 @@ public class CustumExp {
 			ArithmeticException e = new ArithmeticException("please provide valid age");
 			throw e;
 		}
+		System.out.println(age);
 
 	}
 
@@ -16,7 +17,7 @@ public class CustumExp {
 		CustumExp exp = new CustumExp();
 		try 
 		{
-			exp.m1(-12);
+			exp.m1(-2);
 		} 
 		catch (ArithmeticException e) 
 		{

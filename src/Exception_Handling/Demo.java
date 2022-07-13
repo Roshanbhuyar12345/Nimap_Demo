@@ -9,7 +9,7 @@ public class Demo {
 			int i=a[5];
 			System.out.println(i);
 			System.out.println("in try block");	
-		}catch(ArrayIndexOutOfBoundsException e) {
+		}catch(Exception e) {
 			System.out.println("exception handled in catch block");
 		}
 		System.out.println("OutSide Try Block");

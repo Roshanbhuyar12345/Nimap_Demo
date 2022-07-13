@@ -2,7 +2,7 @@ package Exception_Handling;
 
 public class Class_Not_Found {
 	private void m1() throws ClassNotFoundException {
-		Class.forName("Cla");
+		Class.forName("Class.java");
 	}
 	
 	public static void main(String[] args) throws ClassNotFoundException  {
