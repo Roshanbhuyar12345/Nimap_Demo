@@ -16,7 +16,7 @@ public class TreesetCricketer {
 	cr.add(new Cricketer("pant", 14));
 	cr.add(new Cricketer("pritvi", 20));
 	cr.add(new Cricketer("gambhir", 40));
-	cr.add(new Cricketer("mmahi", 54));
+	cr.add(new Cricketer("mahi", 54));
 	
 	Iterator<Cricketer> itr=cr.iterator();
 	

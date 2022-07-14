@@ -12,6 +12,7 @@ public class MultipleCatch {
 		a[4]=2;
 	
 		System.out.println(a[6]);
+		
 		}catch(ArithmeticException e)
 		{
 			System.out.println("something is wrong");

@@ -6,8 +6,7 @@ import java.util.Iterator;
 public class A {
 	public static void main(String[] args) {
 		
-	ArrayList<Integer> 
-	list=new ArrayList<Integer>();
+	ArrayList<Integer> list=new ArrayList<Integer>();
 	list.add(1);
 	list.add(2);
 	list.add(3);
@@ -36,11 +35,13 @@ public class A {
 	al.add("shubham");
 	al.add("sanket");
 	al.add("suraj");
+	
 	System.out.println(al);
 	
 	Iterator<String> itr1=al.iterator();
 	while(itr1.hasNext()) {
-		System.out.println(itr1.next());
+		 String s= itr1.next();
+		System.out.println(s);
 	}
 	}
 }

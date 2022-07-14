@@ -25,7 +25,7 @@ public class ListDemo {
 			System.out.println(i);
 		}
 		System.out.println("---------****-----------");
-   // travercing element in reverse
+		// travercing element in reverse
 		ListIterator<Integer> litr = list.listIterator(list.size());
 
 		while (litr.hasPrevious()) {

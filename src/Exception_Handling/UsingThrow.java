@@ -14,6 +14,6 @@ public class UsingThrow {
 	}
 	
 	public static void main(String[] args) {
-		UsingThrow.checkAge(15);
+		UsingThrow.checkAge(16);
 	}
 }

@@ -14,7 +14,7 @@ public class InputeReader {
 			System.out.println(n);
 
 		} catch (Exception e) {
-			System.out.println("please enter valid input" + e);
+			System.out.println("please enter valid input " + e);
 		}
 
 	}

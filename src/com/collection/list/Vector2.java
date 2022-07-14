@@ -1,6 +1,5 @@
 package com.collection.list;
 
-import java.util.Collections;
 import java.util.List;
 import java.util.Vector;
 

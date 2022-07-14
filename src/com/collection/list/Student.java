@@ -9,10 +9,7 @@ public class Student implements Comparable<Student> {
 	private String name;
 	
 	
-	Student(){
-		
-	}
-
+	
 
 	public Student(int id, int rollno, String name) {
 		super();

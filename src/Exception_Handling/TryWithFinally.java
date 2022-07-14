@@ -11,7 +11,7 @@ public class TryWithFinally {
 		//if there is exception in try block or not, finally block will get exicuted in both the situation
 		//we can not write catch block after after finally block
 		finally{
-			System.out.println("I am always exicted");
+			System.out.println("I am always curious");
 		}
 		
 	}
